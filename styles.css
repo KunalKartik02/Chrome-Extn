@@ -20,14 +20,19 @@ body{
   padding: 10px;
 }
 
+
 .container-flex h1{
-  font-family: 'Palette Mosaic', cursive;
+font-family: 'Rubik', sans-serif;
   font-size: 60px;
   color: green;
 
 }
 #countdown{
-font-size: 10px;
+
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  color: blue;
 }
 #btn{
   width: 100px;
@@ -46,6 +51,7 @@ font-size: 10px;
 position: absolute;
   right: 0;
   color: yellow;
+  border: 10px solid white; 
   /* background-color:#5533FF; */
 }
 ul{
@@ -76,12 +82,22 @@ ul{
   position: absolute;
   right: 0;
 } */
+.div1{
+  position: relative;
+  right: -80px;
+}
 .header {
   padding: 60px;
   text-align: center;
   background: #1abc9c;
   color: black;
   font-size: 30px;
+}
+.hehe{
+  background: white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
 }
 .footer {
 	background-color: #454545;
